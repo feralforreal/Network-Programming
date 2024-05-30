@@ -97,3 +97,7 @@ Sample post request made to webserver while testing through telnet:
   Content-Length: 9
   
   <blank line>
+
+
+
+<img width="712" alt="image" src="https://github.com/feralforreal/Network-Programming/assets/132085748/a820794b-b64f-45aa-8e0e-5ab4d5d7d98a">
