@@ -1,5 +1,5 @@
 # Network-Programming
-The Network programming work goes here
+The Network programming work goes here. Written in a mix of C, C++, Bash
 
 -----------
 UDP Socket programming 
