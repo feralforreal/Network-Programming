@@ -13,7 +13,7 @@ HTTP/TFTP Server Programming
 To create a HTTP-based web server that handles multiple simultaneous requests from users. A web server is a program that receives requests from a client and sends the processed result back to the client as a response to the command. A client is usually a user trying to access the server using a web browser (Google Chrome, Firefox). This program with basics of client/server communication message structure will provide a step toward building high performance servers.
 
 ------
-Web Proxy Server 
+Web Proxy Server Programming
 -------
 HTTP is a client-server protocol; the client usually connects directly with the server. But oftentimes it is useful to introduce an intermediate entity called proxy. The proxy sits
 between HTTP clients and HTTP servers. With the proxy, the HTTP client sends a HTTP request to the proxy. The proxy then forwards this request to the HTTP server, and then
@@ -25,7 +25,7 @@ Features
 * Link Prefetch
 
 --------
-Distributed File System
+Distributed File System Programming
 ---------
 To create a distributed file system for reliable and secure file storage.A Distributed File System is a client/server-based application that allows client to store and retrieve files on multiple servers. One of the features of Distributed file systems is that each file can be divided into pieces and stored on different servers and can be retrieved even if one server is not active. 
 
