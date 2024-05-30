@@ -15,7 +15,19 @@ The server takes one command line argument: a port number for the server to use.
 * $ gcc uftp_server.c -o server # Compile your c-program
 * $ ./server 5001 # Running your server with port number 5001
 And then it waits for a UDP connection after binding to port 5001
-And accordingly client could send get, put, delete, ls, exit [file_name]”
+And accordingly client could send get, put, delete, ls, exit [file_name]
+
+Depending on the commands received, the server responds to the client's request in the following manner:
+o “get [file_name]”: The server transmits the requested file to the client (use files of small size in order of 2 to 5 KB for transfer like any jpeg file).
+o “put [file_name]”: The server receives the transmitted file by the client and stores it locally (use files of small size in order of 2 to 5 KB for transfer like any jpeg file).
+o “delete [file_name]”: The server delete file if it exists. Otherwise do nothing.
+o “ls”: The server should search all the files it has in its local directory and send a list of
+all these files to the client.
+o “exit”: The server should exit gracefully.
+
+<img width="701" alt="image" src="https://github.com/feralforreal/Network-Programming/assets/132085748/691d87ca-7025-4c69-8a59-2bff9cbc6aee">
+
+
 
 And some of the functions used in the code are -
 * o sockfd = socket(PF_INET,SOCK_DGRAM,0); o sockfd is a UDP socket.
