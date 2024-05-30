@@ -6,6 +6,7 @@ The HTTP request consists of three substrings – request method, request URL, a
 The request method should be capital letters like “GET”, “HEAD”, and “POST”.
 The request URL is a set of words which are case insensitive and separated by “/” and the server should treat the URL as a relative path of the current document root directory.
 
+<img width="712" alt="image" src="https://github.com/feralforreal/Network-Programming/assets/132085748/4254bb97-60a2-40ef-8377-ac411a45be59">
 
 If I type an URL like http://www.w3.org/Protocols/rfc1945/rfc1945 in a web browser, the web browser will send an HTTP GET command to the server http://www.w3.org/ after establishing a TCP connection with port 80 on the server
 
@@ -97,7 +98,3 @@ Sample post request made to webserver while testing through telnet:
   Content-Length: 9
   
   <blank line>
-
-
-
-<img width="712" alt="image" src="https://github.com/feralforreal/Network-Programming/assets/132085748/a820794b-b64f-45aa-8e0e-5ab4d5d7d98a">
