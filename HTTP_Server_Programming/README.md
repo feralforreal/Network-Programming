@@ -88,7 +88,7 @@ When a POST request is sent, it should be handled in the same way as the GET and
 
 Sample post request made to webserver while testing through telnet:
 
-*(echo -en "POST /index.html HTTP/1.1\r\n Host: localhost\r\nConnection: Keep-alive\r\n\r\nPOSTDATA") | telnet 127.0.0.1 8888
+* (echo -en "POST /index.html HTTP/1.1\r\n Host: localhost\r\nConnection: Keep-alive\r\n\r\nPOSTDATA") | telnet 127.0.0.1 8888
   
   POST /www/sha2/index.html HTTP/1.1
   
